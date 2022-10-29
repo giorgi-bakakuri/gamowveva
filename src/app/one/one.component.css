@@ -1,0 +1,141 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5F5F5;
+    width: 100%;
+    min-height: 100vh;
+}
+.card-main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 360px;
+    height: 528px;
+    border: 1px solid FFFFFF;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.taitli {
+    margin-top: 32px;
+    margin-left: 24px;
+    font-size: 24px;
+}
+#icon-one {
+    position: absolute;
+    left: 279px;
+    top: 250px;
+}
+#icon-two {
+    position: absolute;
+    left: 312px;
+    top: 250px;
+}
+.inside {
+    position: absolute;
+    top: 297px;
+    left: 24px;
+    right: 24px;
+}
+.inside p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6E798C;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+.foot {
+    position: absolute;
+    width: 56px;
+    height: 25px;
+    left: 24px;
+    bottom: 107px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #A5ADBB;
+}
+.foot1 {
+    position: absolute;
+    width: 117px;
+    height: 25px;
+    left: calc(50% - 117px/2 + 1.5px);
+    bottom: 107px;
+    color: #A5ADBB;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+}
+.foot2 {
+    position: absolute;
+    width: 53px;
+    height: 25px;
+    right: 24px;
+    bottom: 107px;
+    color: #A5ADBB;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+}
+.last1 {
+    position: absolute;
+    width: 88px;
+    height: 25px;
+    left: 24px;
+    bottom: 41px;
+    color: #081F32;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 25px;
+}
+.last2{
+    position: absolute;
+    width: 73px;
+    height: 25px;
+    left: 120px;
+    bottom: 41px;
+    color: #F8593B;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration-line: line-through;
+}
+.last3 {
+    position: absolute;
+    bottom: 20px;
+    right: 24px;
+    top: 454px;
+}
+.last3 button {
+    width: 114px;
+    height: 44px;
+    border: none;
+    background-color: #2ECC71;
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.18em;
+    color: #FFFFFF;
+}
+#icon-zero {
+    position: absolute;
+    top: 250px;
+    left: 246px;
+}
