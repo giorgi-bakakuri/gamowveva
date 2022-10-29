@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Island+Moments&family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Island+Moments&family=Open+Sans:ital@1&display=swap');
+
 .card-container {
     display: flex;
     justify-content: space-around;
@@ -21,6 +25,10 @@
     margin-top: 32px;
     margin-left: 24px;
     font-size: 24px;
+}
+.taitli1 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
 }
 #icon-one {
     position: absolute;
@@ -49,6 +57,8 @@
     font-style: normal;
 }
 .foot {
+    font-family: 'Open Sans';
+    font-style: normal;
     position: absolute;
     width: 56px;
     height: 25px;
@@ -57,11 +67,13 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
     color: #A5ADBB;
 }
 .foot1 {
+    font-family: 'Open Sans';
+    font-style: normal;
     position: absolute;
     width: 117px;
     height: 25px;
@@ -71,10 +83,12 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
 }
 .foot2 {
+    font-family: 'Open Sans';
+    font-style: normal;
     position: absolute;
     width: 53px;
     height: 25px;
@@ -84,7 +98,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
 }
 .last1 {
